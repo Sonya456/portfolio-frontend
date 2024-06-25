@@ -1,0 +1,80 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better separation */
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0; /* Ensure there's no margin */
+  padding: 0; /* Ensure there's no padding */
+}
+
+.header nav ul li {
+  position: relative;
+}
+
+.admin-menu-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.admin-menu-button:hover {
+  color: #080c10; /* Change this to your desired hover color */
+  background-color: transparent; /* Ensure background remains transparent */
+}
+
+.admin-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(110, 109, 122);
+  border: 1px solid #817a9e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  z-index: 1000;
+}
+
+.admin-dropdown li {
+  margin: 5px 0;
+}
+
+.admin-dropdown li a {
+  color: #132130;
+  text-decoration: none;
+  display: block; /* Ensure the link takes up the full space */
+  padding: 5px 10px; /* Add some padding for better clickability */
+}
+
+.admin-dropdown li a:hover {
+  background-color: #7e8a95; /* Change this to your desired hover background color */
+  color: #132130; /* Ensure the text color is still readable */
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #636d78;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  color: #9ca9b7; /* Change this to your desired hover color */
+  background-color: transparent; /* Ensure background remains transparent */
+}
+
+/* Add padding to the body to prevent content from hiding behind the fixed header */
+body {
+  padding-top: 60px; /* Adjust based on the height of the header */
+}

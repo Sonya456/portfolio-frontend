@@ -1,0 +1,38 @@
+body {
+  padding-top:100px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.project-detail {
+  padding-top:500px; /* Adjust this value to ensure the content is below the header */
+  padding: 20px;
+}
+
+.project-element {
+  margin-bottom: 20px;
+}
+
+.project-element img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-element textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.project-element input[type="file"] {
+  display: block;
+  margin-top: 10px;
+}
+
+.project-element button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}

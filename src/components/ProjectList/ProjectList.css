@@ -1,0 +1,18 @@
+.project-list {
+  padding: 20px;
+}
+
+.project-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+}

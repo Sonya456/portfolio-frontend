@@ -1,0 +1,66 @@
+.add-project-with-elements {
+  max-width: 600px;
+  margin: auto;
+}
+
+.add-project-with-elements h2 {
+  text-align: center;
+}
+
+.add-project-with-elements form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-project-with-elements label {
+  margin-bottom: 10px;
+}
+
+.add-project-with-elements input,
+.add-project-with-elements textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.element-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.element-form textarea {
+  margin-bottom: 10px;
+}
+
+.element-form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.elements-preview {
+  margin-top: 20px;
+}
+
+.element-preview {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.element-preview img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.element-preview button {
+  margin-left: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.element-preview button:hover {
+  background-color: #ff1a1a;
+}

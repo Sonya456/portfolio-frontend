@@ -1,0 +1,27 @@
+.add-elements {
+    margin: 20px;
+  }
+  
+  .add-elements h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dynamic-element {
+    margin-bottom: 20px;
+  }
+  
+  .dynamic-element textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .text-style-controls button {
+    margin-right: 10px;
+  }
+  
+  .add-elements button[type="button"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
