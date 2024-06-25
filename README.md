@@ -28,9 +28,12 @@ This repository contains the frontend code for the Portfolio project. The fronte
    REACT_APP_API_URL=http://localhost:8000/api
 5. Start the development server:
    npm start
-##Usage
+
+   
+## Usage
   Navigate to http://localhost:3000 in your web browser.
   Use the navigation links to view the portfolio, about us page, and contact form.
-##Admin Access
+  
+## Admin Access
   Admin functionalities (adding projects, editing contact details) require authentication.
   Ensure you are logged in to access admin features.
